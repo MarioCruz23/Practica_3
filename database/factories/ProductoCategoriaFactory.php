@@ -17,7 +17,7 @@ class ProductoCategoriaFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this-> faker->sentence(2),
+            'brand' => $this-> faker->sentence(1),
             'slug' => $this-> faker->slug,
             'description' => $this-> faker->paragraph,
         ];

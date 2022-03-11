@@ -10,6 +10,6 @@ class ProductoCategoria extends Model
     use HasFactory;
     public function producto()
     {
-        return $this->hasMany(Producto::class);
+        return $this->hasMany(Producto::class, 'id');
     }
 }
